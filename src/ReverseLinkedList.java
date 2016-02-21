@@ -1,5 +1,11 @@
  //change next to prev, prev to current and current to next
  //four pointers, head, current, next, previous
+
+/*deal with previos and then next
+next = current.next
+current.next = previous
+previous = current
+current = next*/
  
 public class ReverseLinkedList {
 
